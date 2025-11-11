@@ -1,0 +1,33 @@
+
+:root{
+  --bg:#0b0e14;
+  --card:#111522;
+  --text:#e6e6e6;
+  --muted:#b7c1d6;
+  --accent:#6fd3fb;
+  --accent2:#b48ef7;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:linear-gradient(180deg,var(--bg),#0e1321);color:var(--text);font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.header{padding:48px 0;text-align:center}
+.badges{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:8px}
+.badge{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#0b0e14;border-radius:999px;padding:6px 12px;font-weight:600;font-size:12px}
+.hero{background:linear-gradient(180deg,rgba(111,211,251,.08),rgba(180,142,247,.08));padding:24px;border:1px solid #1c2337;border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+h1{font-size:clamp(28px,4vw,44px);line-height:1.1;margin:0 0 8px 0}
+h2{font-size:22px;margin:24px 0 8px 0}
+p{margin:0 0 14px 0;color:var(--muted)}
+.section{margin-top:28px;padding:24px;background:var(--card);border:1px solid #1c2337;border-radius:16px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid #2a3556;background:#151b2c;color:var(--text);font-weight:600}
+.btn:hover{transform:translateY(-1px)}
+kbd{background:#101522;border:1px solid #273154;border-radius:6px;padding:2px 6px;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Ubuntu Mono", Consolas, "Liberation Mono", "Courier New", monospace}
+.video{width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;border:1px solid #273154}
+video{width:100%;height:100%}
+iframe{width:100%;height:100%;border:0}
+pre{white-space:pre-wrap;background:#0f1424;border:1px solid #273154;border-radius:12px;padding:12px;overflow:auto}
+ul{padding-left:18px;margin:8px 0}
+.footer{opacity:.7;text-align:center;margin:24px 0}
+.small{font-size:13px;color:var(--muted)}
